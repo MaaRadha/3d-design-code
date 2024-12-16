@@ -7,6 +7,9 @@ export default {
         "text-dark": "#4C4747",
         "bg-gray": "#e5e6e0",
       },
+      backgroundImage: {
+        "hero-pattern": "url('/src/assets/bgPic.jpg')",
+      },
     },
   },
   plugins: [],
