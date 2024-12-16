@@ -2,7 +2,7 @@ import mainImg from "../../assets/basseng_1.jpg";
 const HomePage = () => {
   return (
     <div className="grid lg:grid-cols-2 gap-2 items-center text-text-dark">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center z-10">
         <h1 className="text-2xl md:text-4xl lg:text-7xl text-center drop-shadow-xl">
           Design som skaper inntrykk
         </h1>
