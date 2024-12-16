@@ -8,7 +8,7 @@ const Nav = () => {
           alt="logo"
           className="w-full max-w-20 rounded-lg p-1 backdrop-blur-lg border-2 border-gray-100 "
         />
-        <span className="font-bold px-2">Design Work </span>
+        <span className="font-bold px-2"> 3D Work by Me </span>
       </div>
     </div>
   );
