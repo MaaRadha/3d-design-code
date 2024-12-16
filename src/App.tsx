@@ -9,7 +9,10 @@ const App = () => {
         <Nav />
       </header>
       <main className="container mx-auto max-w-md md:max-w-4xl lg:max-w-screen-2xl p-4 m-4">
-        <HomePage />
+        <section>
+          <HomePage />
+        </section>
+        <section></section>
       </main>
       <footer>
         <Footer />
