@@ -1,3 +1,7 @@
+import reactIcon from "../../assets/icons/react.png";
+import tailwindIcon from "../../assets/icons/tailwindcss.png";
+import vite from "../../assets/icons/vite.png";
+import typescriptIcon from "../../assets/icons/Vectortypescript.png";
 const Footer = () => {
   return (
     <div className="mt-8">
@@ -18,12 +22,38 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <p className="text-md">
-            Telefon:
-            <a href="tel:+4740538464" className="underline">
-              +47 405 38 464
-            </a>
-          </p>
+
+          <div>
+            <p className="text-md">
+              Telefon:
+              <a href="tel:+4740538464" className="underline">
+                +47 405 38 464
+              </a>
+            </p>
+            <p className="text-lg">Denne nettsiden er utviklet av meg :</p>
+            <ul className="flex justify-center space-x-4 py-3 ">
+              <li>
+                <img className="w-8" src={vite} alt="vite icons" />
+              </li>
+              <li>
+                <img className="w-8" src={reactIcon} alt="react icon" />
+              </li>
+              <li>
+                <img
+                  className="w-8"
+                  src={typescriptIcon}
+                  alt="type script icon"
+                />
+              </li>
+              <li>
+                <img
+                  className="w-8"
+                  src={tailwindIcon}
+                  alt=" tailwind css icon"
+                />
+              </li>
+            </ul>
+          </div>
         </div>
       </footer>
     </div>

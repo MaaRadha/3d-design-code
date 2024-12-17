@@ -4,7 +4,7 @@ import HomePage from "./components/homePageSection/HomePage";
 
 const App = () => {
   return (
-    <>
+    <div>
       <header className="border-b-2 border-gray-50 container mx-auto">
         <Nav />
       </header>
@@ -17,7 +17,7 @@ const App = () => {
       <footer>
         <Footer />
       </footer>
-    </>
+    </div>
   );
 };
 
