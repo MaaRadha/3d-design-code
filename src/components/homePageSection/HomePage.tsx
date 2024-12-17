@@ -59,7 +59,7 @@ const HomePage = () => {
           ease: "linear",
         }}
       >
-        <div className=" py-10 rounded-lg ">
+        <div className=" py-10 rounded-lg">
           <video
             controls
             preload="loading"
