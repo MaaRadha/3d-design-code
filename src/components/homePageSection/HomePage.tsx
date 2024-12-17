@@ -58,7 +58,7 @@ const HomePage = () => {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="p-10 z-20">
+        <div className="lg:p-10 md:p-6 p-4 z-20">
           <p className="text-lg">
             Jeg har tidligere jobbet som 3D-artist, BIM-tekniker og teknisk
             tegner, der jeg brukte programvare som Archicad, Autocad, Revit,

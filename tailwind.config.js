@@ -10,6 +10,9 @@ export default {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/bgPic.jpg')",
       },
+      fontFamily: {
+        redish: ["Red Hat Display", "sans-serif"],
+      },
     },
   },
   plugins: [],

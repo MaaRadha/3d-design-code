@@ -7,7 +7,7 @@ const DesignImg = () => {
     <div className="text-text-dark py-6 my-4">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
         <div className="flex flex-col p-3 ">
-          <h2 className="py-10 text-2xl md:text-4xl lg:text-7xl text-center drop-shadow-xl ">
+          <h2 className="py-10 text-2xl md:text-4xl lg:text-5xl text-center drop-shadow-xl ">
             3D visualisering og Teknisk tegning galleri
           </h2>
           <p className="mt-4 text-lg text-gray-600">
@@ -31,7 +31,7 @@ const DesignImg = () => {
                   <img
                     src={icon.pic}
                     alt={icon.name}
-                    className="w-10 shadow-md shadow-gray-500/50 p-2"
+                    className="w-10 shadow-md shadow-gray-500/50 p-1"
                   />
                   <Tooltip
                     className="capitalize text-sm"
