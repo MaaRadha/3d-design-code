@@ -12,7 +12,7 @@ const Footer = () => {
           </p>
           <div className="space-y-2">
             <p className="text-md">Kontakt meg:</p>
-            <div className="flex justify-center space-x-4">
+            <div className="flex flex-wrap items-center justify-center space-x-4">
               <a href="mailto:omyoga2016@outlook.com" className=" underline">
                 omyoga2016@outlook.com
               </a>
