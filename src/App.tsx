@@ -1,6 +1,7 @@
 import Footer from "./components/footer/Footer";
 import Nav from "./components/header/Nav";
 import HomePage from "./components/homePageSection/HomePage";
+import DesignImg from "./components/Imgsection/DesignImg";
 
 const App = () => {
   return (
@@ -12,7 +13,9 @@ const App = () => {
         <section className="">
           <HomePage />
         </section>
-        <section></section>
+        <section className="text-text-dark">
+          <DesignImg />
+        </section>
       </main>
       <footer>
         <Footer />
