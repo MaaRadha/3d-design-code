@@ -63,48 +63,6 @@ const DesignImg = () => {
             alt=" 3d visualisering av bygninger"
           />
         </div>
-        {/* <div className="flex justify-center items-center">
-          <img
-            className="flex justify-center items-center p-1 mx-auto rounded-2xl shadow-[3px_2px_2px_5px_#f7efe6] transform hover:scale-110 transition-transform duration-300 z-30"
-            src={freelanc}
-            alt=" 3d visualisering av bygninger"
-          />
-        </div>
-        <div>
-          <img
-            className="w-full p-1 mx-auto rounded-2xl shadow-[3px_2px_2px_5px_#f7efe6] transform hover:scale-110 transition-transform duration-300"
-            src={bygg}
-            alt=" 3d visualisering av bygninger"
-          />
-        </div>
-        <div>
-          <img
-            className="object-cover p-1 mx-auto rounded-2xl shadow-[3px_2px_2px_5px_#f7efe6] transform hover:scale-110 transition-transform duration-300"
-            src={cabin}
-            alt=" 3d visualisering av bygninger"
-          />
-        </div>
-        <div className="flex justify-center items-center">
-          <img
-            className="p-1 mx-auto rounded-2xl shadow-[3px_2px_2px_5px_#f7efe6] transform hover:scale-110 transition-transform duration-300"
-            src={ski}
-            alt=" 3d visualisering av bygninger"
-          />
-        </div>
-        <div className="">
-          <img
-            className="object-cover rounded-2xl shadow-[3px_2px_2px_5px_#f7efe6] transform hover:scale-110 transition-transform duration-300"
-            src={bolerBad}
-            alt=" 3d visualisering av bygninger"
-          />
-        </div>
-        <div>
-          <img
-            className="w-full p-1 mx-auto rounded-2xl shadow-[3px_2px_2px_5px_#f7efe6] transform hover:scale-110 transition-transform duration-300"
-            src={pool}
-            alt=" 3d visualisering av bygninger"
-          />
-        </div> */}
       </div>
     </div>
   );
