@@ -26,7 +26,7 @@ const Nav = () => {
           anchorSelect="#not-clickable"
           place="bottom"
           className="bg-gray-800 text-white text-sm rounded-lg p-2 shadow-lg"
-          content="Hei 😊! Jeg heter Rohit. Se mer informasjon i footer!"
+          content="Hei😊 !Se mer informasjon i footer!"
         />
       </div>
     </div>
