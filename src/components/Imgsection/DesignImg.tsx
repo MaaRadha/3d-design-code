@@ -6,7 +6,7 @@ const DesignImg = () => {
   return (
     <div className="text-text-dark py-6 my-4">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
-        <div className="flex flex-col p-3 ">
+        <div className="flex flex-col p-3 z-10 ">
           <h2 className="py-10 text-2xl md:text-4xl lg:text-5xl text-center drop-shadow-xl ">
             3D visualisering og Teknisk tegning galleri
           </h2>
@@ -47,7 +47,7 @@ const DesignImg = () => {
         </div>
         <div className=" flex justify-center items-center">
           <img
-            className=" w-full p-1 mx-auto rounded-2xl shadow-[-26px_25px_2px_8px_#f7efe6]"
+            className=" w-full p-1 mx-auto rounded-2xl shadow-[-26px_25px_2px_8px_#f7efe6] transform hover:scale-105 transition-transform duration-300"
             src={bygg}
             alt=" 3d visualisering av bygninger"
           />
