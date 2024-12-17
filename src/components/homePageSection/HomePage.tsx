@@ -2,7 +2,6 @@ import mainImg from "../../assets/nanestad-min.jpg";
 import { motion } from "framer-motion";
 import film from "../../assets/film/movi.mp4";
 import { BsArrowDownCircle } from "react-icons/bs";
-import { Tooltip } from "react-tooltip";
 
 const HomePage = () => {
   return (
@@ -25,29 +24,6 @@ const HomePage = () => {
             Design utvikler kreative løsninger innen konseptutvikling,
             3D-visualisering
           </p>
-          {/* <div className="flex justify-center items-center gap-6">
-            {icons.map((icon) => (
-              <div
-                key={icon.Id}
-                className="relative flex justify-center items-center py-6 my-4"
-              >
-                <span id={`tooltip-${icon.Id}`}>
-                  <img
-                    src={icon.pic}
-                    alt={icon.name}
-                    className="w-10 shadow-md shadow-gray-500/50 p-2"
-                  />
-                  <Tooltip
-                    className="capitalize text-sm"
-                    anchorSelect={`#tooltip-${icon.Id}`}
-                    place="top"
-                  >
-                    {icon.name}
-                  </Tooltip>
-                </span>
-              </div>
-            ))}
-          </div> */}
           <div className="flex justify-center items-center py-6 my-4">
             <span className="animate-bounce">
               <BsArrowDownCircle size={35} color="#9d855e" />
@@ -82,7 +58,7 @@ const HomePage = () => {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="p-10 z-20 font-semibold">
+        <div className="p-10 z-20">
           <p className="text-lg">
             Jeg har tidligere jobbet som 3D-artist, BIM-tekniker og teknisk
             tegner, der jeg brukte programvare som Archicad, Autocad, Revit,
