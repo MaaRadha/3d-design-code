@@ -2,6 +2,7 @@ import mainImg from "../../assets/nanestad-min.jpg";
 import { motion } from "framer-motion";
 import film from "../../assets/film/movi.mp4";
 import { BsArrowDownCircle } from "react-icons/bs";
+import { FiSend } from "react-icons/fi";
 
 const HomePage = () => {
   return (
@@ -17,17 +18,27 @@ const HomePage = () => {
         className="grid lg:grid-cols-2 gap-2 items-center text-text-dark"
       >
         <div className="flex flex-col items-center z-10">
-          <h1 className="text-2xl md:text-4xl lg:text-7xl text-center drop-shadow-xl">
+          <h1 className="text-2xl md:text-4xl lg:text-7xl text-center drop-shadow-xl pb-2">
             Design som skaper inntrykk
           </h1>
-          <p className="text-lg w-full max-w-sm p-4 text-center">
-            Design utvikler kreative løsninger innen konseptutvikling,
-            3D-visualisering
+          <p className="text-lg w-full p-4">
+            Design utvikler kreative løsninger innen konseptutvikling og
+            3D-visualisering, i tillegg til å være utvikler med kompetanse innen
+            frontend-utvikling og .NET.
           </p>
           <div className="flex justify-center items-center py-6 my-4">
             <span className="animate-bounce">
               <BsArrowDownCircle size={35} color="#9d855e" />
             </span>
+          </div>
+          <div className="pb-4">
+            <a
+              href="mailto:rohit_designer@outlook.com"
+              className="px-4 py-2 rounded-full flex items-center gap-2 text-slate-500 shadow-[3px_2px_2px_2px_#f7efe6] transition-all hover:shadow-[-1px_-1px_5px_rgba(255,_255,_255,_0.6),_1px_1px_5px_rgba(0,_0,_0,_0.3),inset_-2px_-2px_5px_rgba(255,_255,_255,_1),inset_2px_2px_4px_rgba(0,_0,_0,_0.3)] hover:text-violet-500"
+            >
+              <FiSend />
+              <span>Send meg e-post</span>
+            </a>
           </div>
         </div>
         <div className="p-1">
