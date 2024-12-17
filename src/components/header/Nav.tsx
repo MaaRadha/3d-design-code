@@ -19,6 +19,7 @@ const Nav = () => {
           className="w-12 rounded-full cursor-pointer"
         />
         <Tooltip
+          className=""
           anchorSelect="#not-clickable"
           place="bottom"
           content="Hei 😊! Jeg heter Rohit. Se mer informasjon i footer. Jeg har kompetanse innen design og utvikling. Send meg gjerne en e-post eller ring!"
