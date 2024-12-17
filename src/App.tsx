@@ -2,6 +2,7 @@ import Footer from "./components/footer/Footer";
 import Nav from "./components/header/Nav";
 import HomePage from "./components/homePageSection/HomePage";
 import DesignImg from "./components/Imgsection/DesignImg";
+import SliderImg from "./components/slider/SliderImg";
 
 const App = () => {
   return (
@@ -15,6 +16,9 @@ const App = () => {
         </section>
         <section className="text-text-dark">
           <DesignImg />
+        </section>
+        <section>
+          <SliderImg />
         </section>
       </main>
       <footer>
