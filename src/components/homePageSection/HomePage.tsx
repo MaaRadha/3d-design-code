@@ -43,7 +43,7 @@ const HomePage = () => {
         </div>
         <div className="p-1">
           <img
-            className="shadow-[-26px_25px_2px_8px_#f7efe6] max-w-6xl w-full p-2 rounded-2xl object-contain transform hover:scale-105 transition-transform duration-300"
+            className="shadow-[-10px_5px_2px_8px_#f7efe6] max-w-6xl w-full p-2 rounded-2xl object-contain transform hover:scale-105 transition-transform duration-300"
             src={mainImg}
             alt="image of a 3d swimming pool with lights and water"
           />
@@ -63,7 +63,7 @@ const HomePage = () => {
           <video
             controls
             preload="loading"
-            className="w-full max-w-4xl rounded-lg shadow-[26px_25px_2px_8px_#f7efe6] p-2 transform hover:scale-105 transition-transform duration-300 cursor-pointer"
+            className="w-full max-w-4xl rounded-lg shadow-[10px_5px_2px_8px_#f7efe6] p-2 transform hover:scale-105 transition-transform duration-300 cursor-pointer"
           >
             <source src={film} type="video/mp4" />
             Your browser does not support the video tag.

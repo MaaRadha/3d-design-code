@@ -47,7 +47,7 @@ const DesignImg = () => {
         </div>
         <div className=" flex justify-center items-center">
           <img
-            className=" w-full p-1 mx-auto rounded-2xl shadow-[-26px_25px_2px_8px_#f7efe6] transform hover:scale-105 transition-transform duration-300"
+            className=" w-full p-1 mx-auto rounded-2xl shadow-[-10px_5px_2px_8px_#f7efe6] transform hover:scale-105 transition-transform duration-300"
             src={bygg}
             alt=" 3d visualisering av bygninger"
           />
