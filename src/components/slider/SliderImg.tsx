@@ -22,8 +22,8 @@ const SliderImg = () => {
               alt={`Slider ${item.name}`}
               className="w-full max-h-[600px] object-cover rounded-lg shadow-lg transition-transform duration-700 ease-in-out group-hover:scale-105"
             />
-            <div className="absolute bottom-5 left-5 bg-black bg-opacity-50 text-white py-2 px-4 rounded-lg duration-300 backdrop-blur-lg">
-              <p className="text-sm p-2">{item.name}</p>
+            <div className="absolute bottom-5 left-5 bg-black bg-opacity-50 backdrop-blur-lg text-white py-2 px-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p className="text-sm">{item.name}</p>
             </div>
           </div>
         ))}
