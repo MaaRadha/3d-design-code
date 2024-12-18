@@ -22,7 +22,7 @@ const SliderImg = () => {
               alt={`Slider ${item.name}`}
               className="w-full max-h-[600px] object-cover rounded-lg shadow-lg transition-transform duration-700 ease-in-out group-hover:scale-105"
             />
-            <p className="text-sm text-semibold p-4 m-1">{item.name}</p>
+            <p className="text-lg text-semibold p-4 m-1">{item.name}</p>
           </div>
         ))}
       </Carousel>
