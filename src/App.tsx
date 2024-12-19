@@ -1,3 +1,4 @@
+import Accordion from "./components/accordian/Accordion";
 import Drawings from "./components/drawings/Drawings";
 import Footer from "./components/footer/Footer";
 import Nav from "./components/header/Nav";
@@ -21,6 +22,9 @@ const App = () => {
         <section>
           <Drawings />
           <SliderImg />
+        </section>
+        <section className="text-text-dark m-10">
+          <Accordion />
         </section>
       </main>
       <footer>

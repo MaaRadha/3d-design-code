@@ -64,7 +64,7 @@ const HomePage = () => {
             controls
             preload="loading"
             poster={poster}
-            className="w-full max-w-4xl rounded-lg shadow-[10px_5px_2px_8px_#f7efe6] p-2 transform hover:scale-105 transition-transform duration-300 cursor-pointer"
+            className="w-full max-w-4xl rounded-2xl shadow-[10px_5px_2px_8px_#f7efe6] p-2 transform hover:scale-105 transition-transform duration-300 cursor-pointer"
           >
             <source src={film} type="video/mp4" />
             Your browser does not support the video tag.
