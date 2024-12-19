@@ -6,7 +6,7 @@ const SliderImg = () => {
     <div className=" lg:ring-1 carousel-container w-full max-w-7xl mx-auto p-5 shadow-[-10px_5px_2px_8px_#f7efe6] rounded-xl ">
       <Carousel
         showArrows={true}
-        autoPlay={true}
+        autoPlay={false}
         infiniteLoop={true}
         showThumbs={false}
         showStatus={false}
