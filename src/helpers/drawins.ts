@@ -1,8 +1,8 @@
 import hytta from "../assets/drawings/hytte_aanesen.jpg";
 import hytta_1 from "../assets/drawings/hytte_aanesen_1.jpg";
 import draw from "../assets/drawings/drawing_1-min.jpg";
-import brenna from "../assets/drawings/brennahouse-min.jpg";
-import brannaSnit from "../assets/drawings/brenna3d-min.jpg";
+// import brenna from "../assets/drawings/brennahouse-min.jpg";
+// import brannaSnit from "../assets/drawings/brenna3d-min.jpg";
 
 export const drawings = [
   {
