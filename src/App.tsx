@@ -16,15 +16,15 @@ const App = () => {
         <section>
           <HomePage />
         </section>
+        <section className="text-text-dark m-10">
+          <Accordion />
+        </section>
         <section className="text-text-dark">
           <DesignImg />
         </section>
         <section>
           <Drawings />
           <SliderImg />
-        </section>
-        <section className="text-text-dark m-10">
-          <Accordion />
         </section>
       </main>
       <footer>
