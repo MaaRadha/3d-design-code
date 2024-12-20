@@ -12,7 +12,7 @@ const SliderImg = () => {
         showStatus={false}
         stopOnHover={true}
         interval={3000}
-        transitionTime={600}
+        // transitionTime={600}
         className="custom-carousel"
       >
         {pictures.map((item) => (
