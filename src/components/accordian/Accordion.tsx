@@ -24,7 +24,7 @@ const Accordion = () => {
       <div className="grid grid-cols-1 items-center lg:grid-cols-2 gap-6 py-10">
         <div>
           <h3 className="text-2xl md:text-4xl lg:text-5xl text-center py-6 my-4 text-text-dark">
-            Spør meg om en løsning, og jeg vil gi deg en løsning
+            Spør meg, og jeg vil gi deg en løsning
           </h3>
         </div>
         <div className="w-full container mx-auto max-w-md">
