@@ -2,13 +2,13 @@ import hytta from "../assets/drawings/hytte_aanesen.jpg";
 import hytta_1 from "../assets/drawings/hytte_aanesen_1.jpg";
 import draw from "../assets/drawings/drawing_1-min.jpg";
 // import brenna from "../assets/drawings/brennahouse-min.jpg";
-// import brannaSnit from "../assets/drawings/brenna3d-min.jpg";
+import brannaSnit from "../assets/drawings/brenna3d-min.jpg";
 
 export const drawings = [
   {
     src: hytta,
     id: 1,
-    alt: "2d tegning av Hytte Aanesen,  jeg ble involvert i et prosjekt som hadde pågått lenge.",
+    alt: "2D-tegning av Hytte Aanesen. Jeg ble involvert i et prosjekt som hadde pågått lenge. Jeg jobbet i Hille Melbye Arkitekter AS som teknisk tegner – min første jobb som teknisk tegner.",
   },
   {
     src: hytta_1,
@@ -18,13 +18,13 @@ export const drawings = [
   {
     src: draw,
     id: 3,
-    alt: "2d tegning av et bygg.",
+    alt: "2D-tegning av Fretex-butikkprosjekt. Jeg har jobbet i et team. Det var ikke så mye arbeid, men jeg gjorde noen endringer i plantegningen basert på eksisterende tegninger og oppdaterte plantegningene.",
   },
-  //   {
-  //     src: brenna,
-  //     id: 4,
-  //     alt: "snitt tegning 2d av et hus brenna.",
-  //   },
+  {
+    src: brannaSnit,
+    id: 4,
+    alt: "I koronapandemien jobbet jeg som frilanser.snitt tegning 2d av et hus brenna.",
+  },
   //   {
   //     src: brannaSnit,
   //     id: 5,
