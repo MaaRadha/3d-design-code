@@ -72,14 +72,18 @@ const HomePage = () => {
         </div>
         <div className="lg:p-10 md:p-6 p-4 z-20">
           <p className="text-lg">
-            Jeg har tidligere jobbet som 3D-artist, BIM-tekniker og teknisk
-            tegner, der jeg brukte programvare som Archicad, Autocad, Revit,
+            Jeg har bakgrunn som 3D-artist, BIM-tekniker og teknisk tegner, med
+            bred erfaring i bruk av programvare som Archicad, Autocad, Revit,
             Solibri, Enscape og Twinmotion for å levere profesjonelle og
-            kreative løsninger. I dag arbeider jeg som både frontend- og
-            backend-utvikler, med fokus på moderne teknologi og brukervennlige
-            løsninger. Min erfaring fra design- og teknologiindustrien gir meg
-            en unik forståelse for hvordan design og utvikling kan skape
-            inntrykk og verdi.
+            kreative løsninger. Jeg har også jobbet i team på komplekse
+            prosjekter, der jeg har bidratt med tekniske tegninger og
+            3D-visualiseringer som støtter helheten i prosjektene. <br />I
+            tillegg har jeg opparbeidet meg kompetanse innen frontend- og
+            backend-utvikling, med fokus på moderne teknologi og brukervennlige
+            løsninger. Denne kombinasjonen av design, teknisk tegning og
+            teknologi gjør at jeg kan finne gode løsninger og bidra med nye
+            ideer. Jeg er alltid motivert for å lære nye verktøy og metoder som
+            kan forbedre prosesser og leveranser."
           </p>
           <p className="text-lg text-end">- Rohit Kumar Amdhal</p>
         </div>
