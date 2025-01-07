@@ -85,7 +85,7 @@ const HomePage = () => {
             ideer. Jeg er alltid motivert for å lære nye verktøy og metoder som
             kan forbedre prosesser og leveranser."
           </p>
-          <p className="text-lg text-end">- Rohit Kumar Amdhal</p>
+          <p className="text-lg text-end">- Rohit Kumar Amdahl</p>
         </div>
       </motion.div>
     </>
