@@ -20,7 +20,6 @@ This website is a comprehensive showcase of my **3D design and visualization pro
 - Renderings of architectural spaces  
 - Animations  
 
-🎥 **Preview:** *(Optional)* Include a preview link or GIF of your work here!  
 
 ## 📜 Skills Highlighted in This Project  
 - **3D Modeling & Rendering:** Stunning, realistic visualizations of architectural and creative designs.  
