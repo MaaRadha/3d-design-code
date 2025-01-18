@@ -1,4 +1,3 @@
-import logo from "/logo_home.png";
 import avtarPic from "../../assets/avatar.jpg";
 import { Tooltip } from "react-tooltip";
 
